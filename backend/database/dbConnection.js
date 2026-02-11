@@ -1,10 +1,10 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 
-dotenv.config();   // make sure .env is loaded here too
+dotenv.config();  
 
 export const dbConnection = () => {
-  console.log("MONGO_URI in dbConnection:", process.env.MONGO_URI); // debug
+  console.log("MONGO_URI in dbConnection:", process.env.MONGO_URI); 
 
   mongoose
     .connect(process.env.MONGO_URI, {
@@ -16,4 +16,10 @@ export const dbConnection = () => {
     .catch((err) => {
       console.log(`Some error occured while connecing to database: ${err}`);
     });
-};
+};node_modules/
+.env
+.env.local
+dist/
+build/
+.DS_Store
+*.log
