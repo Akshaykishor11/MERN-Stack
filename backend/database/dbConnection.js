@@ -22,4 +22,16 @@ export const dbConnection = () => {
 dist/
 build/
 .DS_Store
+*.lognode_modules/
+.env
+.env.local
+dist/
+build/
+.DS_Store
+*.lognode_modules/
+.env
+.env.local
+dist/
+build/
+.DS_Store
 *.log
