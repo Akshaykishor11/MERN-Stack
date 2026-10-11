@@ -16,22 +16,4 @@ export const dbConnection = () => {
     .catch((err) => {
       console.log(`Some error occured while connecing to database: ${err}`);
     });
-};node_modules/
-.env
-.env.local
-dist/
-build/
-.DS_Store
-*.lognode_modules/
-.env
-.env.local
-dist/
-build/
-.DS_Store
-*.lognode_modules/
-.env
-.env.local
-dist/
-build/
-.DS_Store
-*.log
+};
